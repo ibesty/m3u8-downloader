@@ -1,5 +1,11 @@
 # M3U8Downloader
 
+
+> fork from https://github.com/renmu123/m3u8-downloader
+> 1. add axios proxy support
+> 2. replace ffmpeg with fluent-ffmpeg
+
+
 M3U8Downloader is a tool for downloading and merging M3U8 video segments. It supports concurrent downloads, retry mechanisms, and can merge downloaded TS segments into a single file, with an option to convert to MP4 format.
 
 <p >
@@ -73,6 +79,7 @@ const downloader = new M3U8Downloader(
  * @param options.retries Number of retries for downloading segments
  * @param options.clean Whether to clean up downloaded segments after download is error or canceled
  * @param options.headers Axios headers to be sent with the HTTP request
+ * @param options.proxy Axios proxy configuration object
  * */
 ```
 

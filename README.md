@@ -73,6 +73,7 @@ const downloader = new M3U8Downloader(
  * @param options.retries Number of retries for downloading segments
  * @param options.clean Whether to clean up downloaded segments after download is error or canceled
  * @param options.headers Axios headers to be sent with the HTTP request
+ * @param options.proxy Axios proxy configuration object
  * */
 ```
 
